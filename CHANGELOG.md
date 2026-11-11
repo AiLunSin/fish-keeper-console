@@ -2,6 +2,10 @@
 
 本文件记录 Fish Keeper Console 的版本变更。格式参考 Keep a Changelog，版本号遵循 SemVer。
 
+## [0.1.1] - 2026-11-11
+
+仅文档与打包元数据，功能与 0.1.0 相同：刷新 npm 页面上的 README（安装说明、界面截图、npm 徽章）。Release 附件 zip 仍为 0.1.0 快照。
+
 ## [0.1.0] - 2026-11-11
 
 首个公开版本。分发渠道：npm 包 [`dsh-fishkeeper@0.1.0`](https://www.npmjs.com/package/dsh-fishkeeper) 与 [Release 附件 zip](https://github.com/AiLunSin/fish-keeper-console/releases/download/v0.1.0/fish-keeper-console-0.1.0.zip)。
