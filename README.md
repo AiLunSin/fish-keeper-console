@@ -10,6 +10,16 @@
 
 **当前状态：MVP 已实现，并在本地验证环境完成安装与冒烟测试。** 安装后侧边栏会出现“养鱼人控制台”入口；首次打开建议刷新页面以加载最新 Client bundle。
 
+## 界面
+
+截图来自真实 Client bundle + 真实 Host 运行时，数据为仓库内 `demo/` 的合成样本（非真实鱼数据）。
+
+| 总览（深色） | 总览（浅色） |
+|---|---|
+| ![总览 深色](./docs/screenshots/overview-dark.png) | ![总览 浅色](./docs/screenshots/overview-light.png) |
+
+![数据源设置](./docs/screenshots/data-source-settings.png)
+
 ## 已实现
 
 - 多数据源只读总览：文件源（JSON/JSONL，自动识别 `fish.json` / `state.json` / `diary` / `river`）与 loopback HTTP 源；内置 `fishtank` 预设，按 dsh-fishtank 的真实 `fish.json` 字段校准（见 [compat-notes](./docs/compat-notes.md)）。
