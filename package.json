@@ -1,0 +1,49 @@
+{
+  "name": "dsh-fishkeeper",
+  "version": "0.1.0",
+  "type": "module",
+  "description": "Read-only audit, checkpoint, migration, and environment checks for DSH fish keepers.",
+  "license": "MIT",
+  "author": "Fish Keeper Console contributors",
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/AiLunSin/fish-keeper-console.git"
+  },
+  "homepage": "https://github.com/AiLunSin/fish-keeper-console#readme",
+  "bugs": {
+    "url": "https://github.com/AiLunSin/fish-keeper-console/issues"
+  },
+  "keywords": ["dsh", "dsh-plugin", "fish", "audit", "checkpoint", "migration"],
+  "engines": { "node": ">=24.9" },
+  "exports": {
+    ".": "./lib/index.js",
+    "./client": "./lib/client.js",
+    "./locale/*.json": "./locale/*.json",
+    "./icon": "./icon.svg"
+  },
+  "files": [
+    "lib",
+    "demo",
+    "cordis.patch.yml",
+    "locale",
+    "icon.svg",
+    "README.md",
+    "LICENSE",
+    "SECURITY.md",
+    "CONTRIBUTING.md",
+    "docs",
+    "scripts",
+    "src"
+  ],
+  "dsh": {
+    "bundle": { "patch": "./cordis.patch.yml" },
+    "client": {
+      "platform": "web",
+      "inject": []
+    }
+  },
+  "scripts": {
+    "test": "node scripts/smoke-host.mjs && node scripts/smoke-runtime.mjs && node scripts/smoke-api.mjs && node scripts/smoke-lock.mjs && node scripts/smoke-watch.mjs && node scripts/smoke-share.mjs && node scripts/smoke-fishtank.mjs",
+    "wrap:client": "node scripts/wrap-client.mjs"
+  }
+}

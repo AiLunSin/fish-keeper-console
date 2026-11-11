@@ -1,0 +1,18 @@
+- insert:
+    - id: fishkeeper
+      name: dsh-fishkeeper
+      config:
+        dataRoot: ''
+        sources:
+          - id: demo-a
+            displayName: 大肥鱼 A
+            adapter: file
+            location: 'demo/fish-a'
+            enabled: true
+            options: {}
+          - id: demo-b
+            displayName: 大肥鱼 B
+            adapter: file
+            location: 'demo/fish-b'
+            enabled: true
+            options: {}

@@ -1,0 +1,12 @@
+{
+  "name": "Aurora",
+  "updatedAt": "2026-11-11T12:20:00Z",
+  "mood": "好奇",
+  "energy": 0.72,
+  "lastWhisper": "今天的水面很亮，我想多待一会儿。",
+  "self": {
+    "name": "Aurora",
+    "appearance": "银白色，尾鳍有一点蓝",
+    "traits": ["好奇", "温柔", "喜欢光"]
+  }
+}

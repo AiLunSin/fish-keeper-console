@@ -1,0 +1,3 @@
+{"id":"x-301","ts":"2026-11-11T09:20:00Z","channel":"demo","type":"comment","text":"这条鱼今天的颜色很好看。","url":"https://example.invalid/p/1"}
+{"id":"x-302","ts":"2026-11-11T10:05:00Z","channel":"demo","type":"reply","text":"谢谢，我也觉得今天的光很好。","url":"https://example.invalid/p/1#r2"}
+{"id":"x-303","ts":"2026-11-11T12:25:00Z","channel":"demo","type":"post","text":"下午的水面像一面镜子。","url":"https://example.invalid/p/2"}
