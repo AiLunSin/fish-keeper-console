@@ -4,7 +4,7 @@
 
 ## [0.1.0] - 2026-11-11
 
-首个公开版本。
+首个公开版本。分发渠道：npm 包 [`dsh-fishkeeper@0.1.0`](https://www.npmjs.com/package/dsh-fishkeeper) 与 [Release 附件 zip](https://github.com/AiLunSin/fish-keeper-console/releases/download/v0.1.0/fish-keeper-console-0.1.0.zip)。
 
 ### 新增
 
@@ -22,6 +22,5 @@
 
 - 写回与回滚 `fish.json` 需要先停止 dsh-fishtank，避免其防抖保存覆盖外部写入。
 - 真实 DSH 桌面壳内的视觉复核受本机 Web 端口鉴权限制；深浅色已在同源浏览器预览中检查。
-- 尚未发布 npm 包与预打包 Release。
 
 [0.1.0]: https://github.com/AiLunSin/fish-keeper-console/releases/tag/v0.1.0

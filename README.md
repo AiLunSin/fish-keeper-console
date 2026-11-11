@@ -3,6 +3,7 @@
 [![test](https://github.com/AiLunSin/fish-keeper-console/actions/workflows/test.yml/badge.svg)](https://github.com/AiLunSin/fish-keeper-console/actions/workflows/test.yml)
 [![license](https://img.shields.io/badge/license-MIT-blue.svg)](./LICENSE)
 [![version](https://img.shields.io/badge/version-0.1.0-green.svg)](./CHANGELOG.md)
+[![npm](https://img.shields.io/npm/v/dsh-fishkeeper.svg)](https://www.npmjs.com/package/dsh-fishkeeper)
 
 > 服务于 DSH 养鱼人的只读审计与保护层
 >
@@ -149,7 +150,7 @@ DSH 生态里的“养鱼”已经分成人格生长、渠道接入、状态持�
 3. 在插件管理中选择“从本地目录安装”，指向该目录（包含 `package.json` 与 `cordis.patch.yml` 的那一层）；或把它作为本地 bundle 交给 `plugin_manager` 的 `install_bundle`。
 4. 启用后刷新 Web GUI，侧边栏会出现“养鱼人控制台”。
 
-尚未发布到 npm；分发包只有源码目录与 Release 附件中的 zip。
+包已发布到 npm：[`dsh-fishkeeper@0.1.0`](https://www.npmjs.com/package/dsh-fishkeeper)，可用于版本管理与依赖引用；DSH 插件安装仍指向本地目录或 `install_bundle`。
 
 ### 配置数据源
 
