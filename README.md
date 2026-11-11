@@ -138,16 +138,18 @@ DSH 生态里的“养鱼”已经分成人格生长、渠道接入、状态持�
 ### 安装
 
 1. 安装 DSH（Node.js ≥ 24.9）。
-2. 克隆仓库：
+2. 获取插件目录，二选一：
+   - 下载 [fish-keeper-console-0.1.0.zip](https://github.com/AiLunSin/fish-keeper-console/releases/download/v0.1.0/fish-keeper-console-0.1.0.zip)，解压得到 `fish-keeper-console/` 目录；
+   - 或克隆仓库：
 
-   ```bash
-   git clone https://github.com/AiLunSin/fish-keeper-console.git
-   ```
+     ```bash
+     git clone https://github.com/AiLunSin/fish-keeper-console.git
+     ```
 
-3. 在插件管理中选择“从本地目录安装”，指向克隆后的**仓库根目录**（包含 `package.json` 与 `cordis.patch.yml` 的那一层）；或把它作为本地 bundle 交给 `plugin_manager` 的 `install_bundle`。
+3. 在插件管理中选择“从本地目录安装”，指向该目录（包含 `package.json` 与 `cordis.patch.yml` 的那一层）；或把它作为本地 bundle 交给 `plugin_manager` 的 `install_bundle`。
 4. 启用后刷新 Web GUI，侧边栏会出现“养鱼人控制台”。
 
-当前安装方式是本地目录 / 本地 bundle；尚未发布到 npm，也没有预打包的 Release 压缩包。
+尚未发布到 npm；分发包只有源码目录与 Release 附件中的 zip。
 
 ### 配置数据源
 
